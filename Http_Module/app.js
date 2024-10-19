@@ -1,5 +1,6 @@
 const http = require('http');
 
+// On callling http.createServer(), we will receive request and response object
 const server = http.createServer((req,res)=>{
 
     if(req.url == '/'){
